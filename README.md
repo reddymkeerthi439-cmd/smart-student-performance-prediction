@@ -1,93 +1,77 @@
- Smart Student Performance Prediction
+# Smart Student Performance Prediction System
 
-A machine learning project that predicts student academic performance based on study hours, attendance, previous marks, and assignment scores.
+## About the Project
 
-  Project Overview
+This project uses machine learning to predict student academic performance based on study hours, attendance, previous marks, and assignment scores.
 
-The aim of this project is to build a machine learning model that can classify students into three performance categories:
+## Objective
 
-- Low
-- Medium
-- High
+The main objective is to demonstrate how machine learning can be used to analyze student-related data and classify academic performance as Low, Medium, or High.
 
-The project uses a Decision Tree Classifier to learn patterns from student academic data and predict the performance of a new student.
+## Features
 
- Objectives
+- Student performance dataset
+- Data loading and preprocessing
+- Machine learning model training
+- Performance prediction
+- Model accuracy evaluation
+- Data visualization
 
-- Analyze student academic data.
-- Identify important factors affecting performance.
-- Train a machine learning classification model.
-- Evaluate the model using accuracy, classification report, and confusion matrix.
-- Predict the performance of a new student.
-- Visualize the relationship between study hours and previous marks.
-
- Dataset
-
-The dataset contains the following attributes:
-
-| Feature | Description |
-|---|---|
-| Study Hours | Number of hours spent studying |
-| Attendance | Student attendance percentage |
-| Previous Marks | Marks obtained previously |
-| Assignment Score | Assignment marks |
-| Performance | Target class: Low, Medium, or High |
-
- Machine Learning Model
-
- Decision Tree Classifier
-
-The dataset is divided into training and testing sets. The target labels are encoded using `LabelEncoder`.
-
-The model is evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-
- Result
-
-For the current small demonstration dataset:
-
-**Test Accuracy: 100%**
-
-Example student:
-
-- Study Hours: 7
-- Attendance: 90%
-- Previous Marks: 80
-- Assignment Score: 85
-
-**Predicted Performance: High**
-
-> Note: The dataset used in this project is small and intended for educational demonstration. The reported accuracy should not be interpreted as real-world model performance.
-
- Visualization
-
-The project generates a graph showing the relationship between study hours and previous marks.
-
-![Study Hours vs Previous Marks](results.png)
-
- Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
 - Matplotlib
 - Scikit-learn
-- Decision Tree
-- VS Code
-- GitHub
+- Decision Tree Classifier
 
- Project Structure
+## Dataset
+
+The dataset contains:
+- Study Hours
+- Attendance
+- Previous Marks
+- Assignment Score
+- Performance
+
+## How to Run
+
+1. Install Python.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the program:
+
+```bash
+python student_prediction.py
+```
+
+## Output
+
+The program displays:
+- Sample dataset records
+- Model accuracy
+- Classification report
+- Confusion matrix
+- Prediction for a new student
+- A graph showing study hours versus previous marks
+
+## Project Structure
 
 ```text
 smart-student-performance-prediction/
-│
-├── README.md
-├── requirements.txt
 ├── student_performance.csv
 ├── student_prediction.py
+├── requirements.txt
 ├── results.png
-└── .gitignore
+└── README.md
+├── app.py
+
+```
+
+## Note
+
+This is an educational machine learning project using a small sample dataset. It is intended for learning and demonstration purposes.
