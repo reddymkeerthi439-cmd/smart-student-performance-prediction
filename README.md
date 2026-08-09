@@ -1,6 +1,6 @@
 # Smart Student Performance Prediction System 
 https://smart-student-performance-prediction-iugfosmdsugaxsmnw2vjqw.streamlit.app/
-[Open My Live App](https://smart-student-performance-prediction-iugfosmdsugaxsmnw2vjqw.streamlit.app/)
+https://smart-student-performance-prediction-iugfosmdsugaxsmnw2vjqw.streamlit.app/
 ## About the Project
 
 This project uses machine learning to predict student academic performance based on study hours, attendance, previous marks, and assignment scores.
