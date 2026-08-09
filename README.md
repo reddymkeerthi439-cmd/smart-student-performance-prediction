@@ -1,8 +1,8 @@
-# Smart Student Performance Prediction
+ Smart Student Performance Prediction
 
 A machine learning project that predicts student academic performance based on study hours, attendance, previous marks, and assignment scores.
 
-## 📌 Project Overview
+  Project Overview
 
 The aim of this project is to build a machine learning model that can classify students into three performance categories:
 
@@ -12,7 +12,7 @@ The aim of this project is to build a machine learning model that can classify s
 
 The project uses a Decision Tree Classifier to learn patterns from student academic data and predict the performance of a new student.
 
-## 🎯 Objectives
+ Objectives
 
 - Analyze student academic data.
 - Identify important factors affecting performance.
@@ -21,7 +21,7 @@ The project uses a Decision Tree Classifier to learn patterns from student acade
 - Predict the performance of a new student.
 - Visualize the relationship between study hours and previous marks.
 
-## 📊 Dataset
+ Dataset
 
 The dataset contains the following attributes:
 
@@ -33,9 +33,9 @@ The dataset contains the following attributes:
 | Assignment Score | Assignment marks |
 | Performance | Target class: Low, Medium, or High |
 
-## 🤖 Machine Learning Model
+ Machine Learning Model
 
-**Algorithm:** Decision Tree Classifier
+ Decision Tree Classifier
 
 The dataset is divided into training and testing sets. The target labels are encoded using `LabelEncoder`.
 
@@ -47,7 +47,7 @@ The model is evaluated using:
 - F1-score
 - Confusion Matrix
 
-## 📈 Result
+ Result
 
 For the current small demonstration dataset:
 
@@ -64,13 +64,13 @@ Example student:
 
 > Note: The dataset used in this project is small and intended for educational demonstration. The reported accuracy should not be interpreted as real-world model performance.
 
-## 📉 Visualization
+ Visualization
 
 The project generates a graph showing the relationship between study hours and previous marks.
 
 ![Study Hours vs Previous Marks](results.png)
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 - Python
 - Pandas
@@ -80,7 +80,7 @@ The project generates a graph showing the relationship between study hours and p
 - VS Code
 - GitHub
 
-## 📂 Project Structure
+ Project Structure
 
 ```text
 smart-student-performance-prediction/
